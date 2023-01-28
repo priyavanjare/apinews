@@ -35,21 +35,12 @@ export default class Navbar extends Component {
                     Home
                   </Link>
                 </li>
-
-                <li className="nav-item">
-                  <Link
-                    className="nav-link list-group-item list-group-item-action list-group-item-light mt-2"
-                    to="/About"
-                  >
-                    about
-                  </Link>
-                </li>
                 <li className="nav-item">
                   <Link
                     className="nav-link list-group-item list-group-item-action list-group-item-light mt-2"
                     to="/Business"
                   >
-                    business
+                    Business
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -57,7 +48,7 @@ export default class Navbar extends Component {
                     className="nav-link list-group-item list-group-item-action list-group-item-light mt-2"
                     to="/Entertainment"
                   >
-                    entertainment
+                    Entertainment
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -65,7 +56,7 @@ export default class Navbar extends Component {
                     className="nav-link list-group-item list-group-item-action list-group-item-light mt-2"
                     to="/General"
                   >
-                    general
+                    General
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -73,7 +64,7 @@ export default class Navbar extends Component {
                     className="nav-link list-group-item list-group-item-action list-group-item-light mt-2"
                     to="/Health"
                   >
-                    health
+                    Health
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -81,7 +72,7 @@ export default class Navbar extends Component {
                     className="nav-link list-group-item list-group-item-action list-group-item-light mt-2"
                     to="/Science"
                   >
-                    science
+                    Science
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -89,7 +80,7 @@ export default class Navbar extends Component {
                     className="nav-link list-group-item list-group-item-action list-group-item-light mt-2"
                     to="/Sports"
                   >
-                    sports
+                    Sports
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -97,7 +88,7 @@ export default class Navbar extends Component {
                     className="nav-link list-group-item list-group-item-action list-group-item-light mt-2"
                     to="/Technology"
                   >
-                    technology
+                    Technology
                   </Link>
                 </li>
               </ul>

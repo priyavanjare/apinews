@@ -33,7 +33,7 @@ export default class App extends Component {
             />
             <Route
               exact
-              path="/ business"
+              path="/business"
               element={
                 <News
                   key="business"
@@ -105,7 +105,7 @@ export default class App extends Component {
             />
             <Route
               exact
-              path="/ technology"
+              path="/technology"
               element={
                 <News
                   key="technology"

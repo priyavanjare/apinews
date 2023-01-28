@@ -1,22 +1,13 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
-
-
-
-
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
-   
-
-  
   render() {
- 
     return (
       <div>
         <nav className="navbar navbar-expand-lg bg-light">
           <div className="container-fluid">
             <Link className="navbar-brand nav-link" to="/">
-   
               MonkeyNews
             </Link>
             <button
@@ -109,19 +100,6 @@ export default class Navbar extends Component {
                     technology
                   </Link>
                 </li>
-
-                <form className="d-flex" role="search" >
-                  <input
-                    className="form-control me-2"
-                    style={{ marginLeft: "500px" }}
-                    
-                    type="search"
-                  placeholder="Search"
-                    aria-label="Search"
-                  />
-                  
-                  
-                </form>
               </ul>
             </div>
           </div>
@@ -130,5 +108,3 @@ export default class Navbar extends Component {
     );
   }
 }
-
-
